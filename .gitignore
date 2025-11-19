@@ -1,0 +1,7 @@
+netlab.snapshot.*
+ansible.cfg
+host_vars*
+group_vars*
+clab.yml
+hosts.yml
+

@@ -1,0 +1,27 @@
+# Ansible inventory created from ['/home/tj/projects/sandbox/netlab-test/topology.yml', 'package:topology-defaults.yml']
+#
+
+%YAML 1.1
+---
+interfaces: []
+clab:
+  kind: ceos
+  env:
+    INTFTYPE: et
+    CLAB_MGMT_VRF: management
+box: ceos:4.34.2F
+role: router
+af:
+  ipv4: true
+mgmt:
+  ifname: Management0
+  mac: ca:fe:00:03:00:00
+  ipv4: 192.168.121.103
+hostname: clab-netlabtest-r3
+loopback:
+  type: loopback
+  neighbors: []
+  virtual_interface: true
+  ifindex: 0
+  ifname: Loopback0
+  ipv4: 10.0.0.3/32

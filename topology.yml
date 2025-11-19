@@ -1,0 +1,10 @@
+---
+defaults.device: eos
+
+provider: clab
+
+nodes:
+- r1
+- r2
+- r3
+- r4

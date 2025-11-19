@@ -3,6 +3,7 @@ A simple setup of Netlab with Containerlab and Arista cEOS for network lab setup
 [https://netlab.tools](https://netlab.tools)
 [https://https://containerlab.dev/](https://containerlab.dev/)
 
+### Tested using `python 3.13.x`
 
 Install python library dependencies
 ```bash

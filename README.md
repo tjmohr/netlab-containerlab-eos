@@ -3,7 +3,7 @@ A simple setup of Netlab with Containerlab and Arista cEOS for network lab setup
 
 [https://netlab.tools](https://netlab.tools)
 
-[https://https://containerlab.dev/](https://containerlab.dev/)
+[https://containerlab.dev/](https://containerlab.dev/)
 
 NOTE - Arista cEOS will need to be downloaded and installed to local docker images. 
 - see netlab documentation here - https://netlab.tools/labs/ceos/
